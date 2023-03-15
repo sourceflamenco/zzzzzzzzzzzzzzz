@@ -14,7 +14,9 @@ from strings import get_command
 
 disable_cut = []
 
-@app.on_message(filters.regex("^بوت$") & filters.group)
+
+        
+@app.on_message(filters.regex("^صراحه$") & filters.group)
 def searchMusic(c: Client, m: Message):
         ch = m.chat.id
         if ch in disable_cut:
@@ -31,4 +33,6 @@ def searchMusic(c: Client, m: Message):
 "**أمـر يالغالي**",
 "**وش اشغل لك**",
 "**أمـرني وش اشغل لك**",
-                       ]
+        ]
+        word = random.choice(txt)
+        m.reply_text
