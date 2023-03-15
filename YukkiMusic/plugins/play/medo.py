@@ -66,4 +66,5 @@ def searchMusic(c: Client, m: Message):
 "**أمـرني وش اشغل لك**",
         ]
         word = random.choice(txt)
-        m.reply_text(f"-")
+        m.reply_text(f"لبيـه"
+                    "عيوني")
