@@ -295,7 +295,7 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**No Active Voice Chat Found**\n\nPlease make sure group's voice chat is enabled. If already enabled, please end it and start fresh voice chat again and if the problem continues, try /restart"
+                    "**لم يتم العثور على محادثة صوتية نشطة**\n\n**الرجاء اتاڪد من تمكين الدردشة الصوتية في المجموعه**.  **إذا تم تمكين الدردشه الصوتيه** ، **يرجئ انهاء الدردشه وبدء محادثة صوتية جديدة مرة أخرى وإذا استمرت المشكلة اڪتب** /restart"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
