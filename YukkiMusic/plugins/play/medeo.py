@@ -73,7 +73,7 @@ txt = [
         
 
 
-@app.on_message(filters.regex("^لنيدا$") & filters.group)
+@app.on_message(filters.regex("^ليندا$") & filters.group)
 
 
 async def cutt(client: Client, message: Message):
