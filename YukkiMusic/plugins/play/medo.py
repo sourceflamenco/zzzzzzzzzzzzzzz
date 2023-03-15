@@ -3689,8 +3689,7 @@ txt = [
         
 
 
-@app.on_message(command(["بوت","تويت"]))
-
+@app.on_message(filters.regex("^بوت$") & filters.group)
 
 async def cutt(client: Client, message: Message):
 
