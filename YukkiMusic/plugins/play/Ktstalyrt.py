@@ -23,11 +23,11 @@ async def sourc(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                       "مطور السورس", user_id=5820455440)
+                       "𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙴𝚅", user_id=5820455440)
                 ],[
                     InlineKeyboardButton(
                        "تحديثات لينـدا", url=f"https://t.me/FH_KP")
-                
+              
                  ],
 
             ]
