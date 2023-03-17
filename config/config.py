@@ -66,6 +66,9 @@ CHANNEL_SUDO = getenv(
 )  # قناة السورس هيك https://t.me/botsMoon
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/botsMoon"
+    )  #جروب السورس https://t.me/botsMoon
+SUPPORT_GROUP = getenv(
+    "SUPPORT_GROUP", "https://t.me/botsMoon"
     )
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
