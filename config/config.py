@@ -62,13 +62,13 @@ CHANNEL = getenv(
     "CHANNEL", "ava8v"
 )  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/sssssso"
-)  # قناة السورس هيك https://t.me/M_O_D_Y_CH
+    "CHANNEL_SUDO", "https://t.me/ava8v"
+)  # قناة السورس هيك https://t.me/ava8v
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/sssssso"
-)  #جروب السورس https://t.me/BarGohara
+    "SUPPORT_CHANNEL", "https://t.me/ava8v"
+)  #جروب السورس https://t.me/ava8v
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/sssssso"
+    "SUPPORT_GROUP", "https://t.me/ava8v"
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
