@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/sssssso"
 )  #جروب السورس https://t.me/BarGohara
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/FH_KP"
+    "SUPPORT_GROUP", "https://t.me/sssssso"
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
@@ -158,7 +158,7 @@ autoclean = []
 
 
 # صوره الاستارت
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/fc60eef2c9bb177eb2f1d.mp4")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph//file/ee80f6103c5368af2f992.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
