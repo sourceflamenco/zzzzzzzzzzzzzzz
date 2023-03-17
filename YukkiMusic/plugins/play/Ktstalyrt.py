@@ -14,7 +14,7 @@ from strings import get_command
 
 disable_cut = []
 
-@app.on_message
+@app.on_message(
 filters.command(["المطور","السورس"],""))
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
