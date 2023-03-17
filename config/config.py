@@ -68,7 +68,7 @@ SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/ava8v"
 )  #جروب السورس https://t.me/ava8v
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/ava8v"
+    "SUPPORT_GROUP", None)
 ) 
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
