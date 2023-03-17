@@ -60,7 +60,7 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
     "CHANNEL", "ava8v"
-)  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
+)  # قناه الاشتراك الاجباري مثل هيك https://t.me/ava8v
 CHANNEL_SUDO = getenv(
     "CHANNEL_SUDO", "https://t.me/ava8v"
 )  # قناة السورس هيك https://t.me/ava8v
