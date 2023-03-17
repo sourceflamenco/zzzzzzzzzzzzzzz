@@ -57,7 +57,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text=f"َِ𝙎َِ𝙊َِ𝙐َِ𝙍َِ𝘾َِ𝙀 ِٚ𝙇َِ𝙄َِ𝙉َِ𝘿َِ𝘼", url=f"https://t.me/ava8v"
+                text=f"‹ 𝖠𝗏𝖺𝗍𝖺𝗋 𝗆𝗈𝗈𝗇 ›", url=f"https://t.me/ava8v"
             )
         ],
     ]
