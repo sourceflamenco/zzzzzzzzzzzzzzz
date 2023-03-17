@@ -14,19 +14,19 @@ from strings import get_command
 
 disable_cut = []
 
-@app.on_message(filters.regex("^السورس$") & filters.group)
+@app.on_message(filters.regex("السورس","المطور" & filters.group)
 async def sourc(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/a0c0d07c7ffbe086f9176.mp4",
-        caption=f"""𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 𝑺𝒐𝒖𝒓𝒄𝒆 𝒍𝒊𝒏𝒅𝒂 🎶\n\n• ᴅᴇᴠᴇʟᴏᴘᴇʀ » [𝑎𝑙_𝑐𝑎𝑒𝑠𝑎𝑟](t.me/FH_KX)\n• ᴄʜᴀɴɴᴇʟ » [𝒄𝒉𝒂𝒏𝒏𝒆𝒍](t.me/FH_KN)**""",
+        photo=f"https://telegra.ph//file/9e11855b92847621a8ecc.jpg",
+        caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 & 𝗌𝗈𝗎𝗋𝖼𝖾 moon .""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                       "𝚂𝙾𝚄𝚁𝙲𝙴 𝙳𝙴𝚅", user_id=5820455440)
+                       "aBs Ahmed", url=f"https://t.me/r6r8r")
                 ],[
                     InlineKeyboardButton(
-                       "تحديثات لينـدا", url=f"https://t.me/FH_KP")
+                       "Source Moon", url=f"https://t.me/sssssso")
               
                  ],
 
