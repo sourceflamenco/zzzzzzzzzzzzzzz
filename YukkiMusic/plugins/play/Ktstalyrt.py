@@ -18,8 +18,8 @@ disable_cut = []
 filters.command(["المطور","السورس"],""))
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/9e11855b92847621a8ecc.jpg",
-        caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 & 𝗌𝗈𝗎𝗋𝖼𝖾 moon .""",
+        photo=f"https://telegra.ph//file/16163da3527512a7375b4.jpg",
+        caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 & BoTs moon .""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
