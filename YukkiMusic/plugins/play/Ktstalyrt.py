@@ -27,7 +27,7 @@ async def khalid(client: Client, message: Message):
                        "aBs Ahmed", url=f"https://t.me/r6r8r")
                 ],[
                     InlineKeyboardButton(
-                       "Source Moon", url=f"https://t.me/botsmoon")
+                       "BoTs moon", url=f"https://t.me/botsmoon")
               
                  ],
 
