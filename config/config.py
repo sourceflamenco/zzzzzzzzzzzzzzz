@@ -59,16 +59,16 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # قناه الاشتراك الاجباري بدون @
 CHANNEL = getenv(
-    "CHANNEL", "botsMoon"
-)  # قناه الاشتراك الاجباري مثل هيك https://t.me/botsMoon
+    "CHANNEL", "UZZDD"
+)  # قناه الاشتراك الاجباري مثل هيك https://t.me/UZZDD
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/botsMoon"
-)  # قناة السورس هيك https://t.me/botsMoon
+    "CHANNEL_SUDO", "https://t.me/UZZDD"
+)  # قناة السورس هيك https://t.me/UZZDD
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/botsMoon"
-    )  #جروب السورس https://t.me/botsMoon
+    "SUPPORT_CHANNEL", "https://t.me/UZZDD"
+    )  #جروب السورس https://t.me/UZZDD
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/botsMoon"
+    "SUPPORT_GROUP", "https://t.me/UZZDD"
     )
 
 # ما تلعب بيها حبي هي عند الاغنيه متخلص ينزل المساعد من الكول
@@ -100,7 +100,7 @@ YOUTUBE_DOWNLOAD_EDIT_SLEEP = int(getenv("YOUTUBE_EDIT_SLEEP", "3"))
 TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # هيدي في رساله استارت لصنع بوت 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/botsmoon")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://t.me/UZZDD")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 SPOTIFY_CLIENT_ID = getenv("SPOTIFY_CLIENT_ID", None)
