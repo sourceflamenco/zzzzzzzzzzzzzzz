@@ -23,7 +23,7 @@ async def vambir(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                       "BoTs Moon", url=f"https://t.me/botsmoon"),
+                       "BoTs Moon", url=f"https://t.me/UZZDD"),
                 ],
                 [  
                     InlineKeyboardButton(
