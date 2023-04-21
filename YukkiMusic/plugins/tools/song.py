@@ -39,7 +39,7 @@ def song(_, message):
         duration = results[0]["duration"]
 
     except Exception as e:
-        m.edit("- **للاسف ما اثرت على شي تأكد من كتابة اسم الفنان مع الاغنية**")
+        m.edit("- **للاسف لم اجد شيئ تأكد من كتابة اسم الفنان مع الاغنية**")
         print(str(e))
         return
     try:
@@ -47,7 +47,7 @@ def song(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**✧ [𝗹 𝗺𝗼𝗼𝗻](t.me/botsmoon)**"
+        rep = f"**✧ [𝖬𝗒 𝖲𝖳𝗎𝖿𝖿](t.me/UZZDD)**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
@@ -102,7 +102,7 @@ def song232(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**- Ch** [𝗹 𝗺𝗼𝗼𝗻](t.me/botsmoon)"
+        rep = f"**- Ch** [𝖬𝗒 𝖲𝖳𝗎𝖿𝖿](t.me/UZZDD)"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
