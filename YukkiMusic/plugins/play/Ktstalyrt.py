@@ -18,8 +18,8 @@ disable_cut = []
 filters.command(["المطور","السورس"],""))
 async def khalid(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph//file/16163da3527512a7375b4.jpg",
-        caption=f"""𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 & BoTs moon .""",
+        photo=f"https://telegra.ph//file/54e8f17091b1d035e5a07.jpg",
+        caption=f""" 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝗍𝗈 𝗍𝗁𝖾 𝗆𝗈𝗈𝗇 𝗆𝗎𝗌𝗂𝖼 𝖻𝗈𝗍 .""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -27,7 +27,7 @@ async def khalid(client: Client, message: Message):
                        "aBs Ahmed", url=f"https://t.me/r6r8r")
                 ],[
                     InlineKeyboardButton(
-                       "BoTs moon", url=f"https://t.me/botsmoon")
+                       "BoTs moon", url=f"https://t.me/UZZDD")
               
                  ],
 
