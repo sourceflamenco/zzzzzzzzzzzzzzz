@@ -10,14 +10,14 @@ from pyrogram import filters
 load_dotenv()
 
 # الايبيهات الهاش والايدي بنجبهم من هنا my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH","")
+API_ID = int(getenv("API_ID", "12987601"))
+API_HASH = getenv("API_HASH","a6581bb9160931c45197461bb7e81f90")
 
 ## توكن البوت بنجيبو من هنا @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN","")
+BOT_TOKEN = getenv("BOT_TOKEN","1480911289:AAG277JeoaWQAC2G8Nhd9-7AD5C86s_dtio")
 
 # المونج لو ممعكش سيبو زي مهوه
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://moon:bootsmoon@cluster0.uyvnnox.mongodb.net/?retryWrites=true&w=majority")
 
 # مده الاغنيه بتبقي ٦٠ دقيقه انا مسويها ٣٠٠ تقدر تزودها
 DURATION_LIMIT_MIN = int(
@@ -30,10 +30,10 @@ SONG_DOWNLOAD_DURATION = int(
 ) 
 
 # جروب اللي مرفوع فيه البوت والمساعد ادمن 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""-1001645162547))
 
 # اسم البوت مينفعش تكتبو مزغرف
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","moon")
 
 # ايديهات المطورين الملاك
 OWNER_ID = list(
@@ -135,7 +135,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 
 
 # جلسه البايروجران تقدر تجبها من هنا@helal_trmix_BOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION","AgCDYbVM4NA3Ms7sjLRla_FRN1hiR0yPPGJJVaM56wwnJvvx-vxMxZSZPeuPfx_pxzBTULaZ-BWfIpOp9ZaS_jVF_bEG1iDJnrc_Znvvtcf6qFtK2lVJXSz0GLaQMEmjSDi7wd8ee3ID5IzpablN0vP1eEnFnNyC9sAOK8i8jgtn82yo7Mq78jXuHsEEXOLEqG1jJZB0VmW6gLPkqj1CvfKOD5kAe_j9vD5vjneIiLH-qd4tMzKA3Rn4Yrk813jxnwaZClenSVRo-o5LAqH743n9KRRt6E23XMDJWkrLnYU_UE2Kj8WCILUzNty1I6a3YcOKLKHckAbOjU20Lb5mTCmzAAAAAUjjBCwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -167,7 +167,7 @@ PING_IMG_URL = getenv(
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://graph.org/file/c4e5ff75d5366db6b2818.jpg",
+    "https://graph.org/file/f342609a06dff6488eeab.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
